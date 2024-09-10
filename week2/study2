@@ -1,1 +1,13 @@
+1. 안드로이드 구조
+ 1) 리눅스  커널(Linux Kernel)
+ 2) 라이브러리(Libraries)
+ 3) 안드로이드 런타임(Android Runtime)
+ 4) 애플리케이션 프레임워크(Application Framework)
+ 5) 애플리케이션(Application)
 
+2. 안드로이드 애플리케이션 구성요소
+ 1) 액티비티(Activity) : UI 화면의 구성요소, 사용자와 상호작용
+ 2) 브로드캐스트 리시버(Broadcast Receivers) : 안드로이드 운영체제와 애플리케이션 간 통신 처리
+ 3) 콘텐츠 프로바이더(Content Providers) : 애플리케이션 간 데이터 공유 처리
+ 4) 서비스(Services) : 애플리케이션과 관련된 백그라운드 작업 처리
+ 5) 추가 구성 요소 : 프래그먼트(Fragments), 뷰(Views), 레이아웃(Layouts), 인텐트(Intents), 리소스(Resources), 매니페스트(Manifest)
