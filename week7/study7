@@ -1,1 +1,21 @@
+인텐트로 화면 전환하기.pdf
+p.9 ~ 
 
+putExtra() : 데이터 전송
+getXxx(자료형)Extra() : 데이터 받음
+
+버튼에 직접 처리
+- onCreate 안에 참조
+- button.setOnClickListener  -> 자동완성
+
+
+메인 액티비티의 putExtra의 id값과 서브 액티비티의 getXxxExtra id 값이 꼭 일치해야함
+
+p.24 ~ 
+양방향 통신
+- registerForActivityResult
+- ActivityResultLauncher
+- onActivityResult
+- setResult
+
+시험 범위 ( ~ 양방향 인텐트)
