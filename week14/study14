@@ -15,3 +15,4 @@ requestLocationUpdates() 호출
 
 새로운 위치가 얻어지면 onLocationChanged(Location location)이 호출됨.
 
+AIzaSyDkzxvACr28y5hVPBZu3ccOq42HlpNuX4w
