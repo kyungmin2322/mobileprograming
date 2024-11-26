@@ -1,1 +1,17 @@
+위치기반앱
+
+LocationManager(위치 관리자)
+
+앱에 제공하는 기능
+- 주기적으로 바뀌는 단말의 위치 정보 수신
+- 단말이 특정 위치에 가까이 가면 애플리케이션의 특정 인텐트 실행
+
+LocationManager manager = (LocationManager)
+getSystemService(Context.LOCATION_SERVICE);
+List<String> providers = manager.getAllProviders();
+
+안드로이드에서 사용자 위치를 얻으려면 콜백 메소드를 등록해야함.
+requestLocationUpdates() 호출
+
+새로운 위치가 얻어지면 onLocationChanged(Location location)이 호출됨.
 
